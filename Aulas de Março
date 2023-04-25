@@ -1,0 +1,55 @@
+
+print("Hello World")
+sentenca = "Hello World"
+print(sentenca)
+primeira_palavra = "Hello"
+print(primeira_palavra)
+segunda_palavra = "World"
+print(segunda_palavra)
+print("print da primeira,segunda : ",primeira_palavra,segunda_palavra)
+frase = primeira_palavra + " " +segunda_palavra
+print("print da variavel frase : ",frase)
+
+
+var1 = "Olá"
+print(var1)
+#var2 = " mundo"
+var1 = "mundo"
+print(var1)
+
+
+var1 = "Olá"
+print(var1)
+var1 = var1 + " mundo"
+print(var1)
+
+
+#Escreva a frase "Meu nome é tal" usando o esquema anterior
+frase = "Meu"
+print(frase)
+frase = frase + " nome"
+print(frase)
+frase = frase + " é"
+print(frase)
+frase = frase + " Victor"
+print(frase)
+
+nome = input("me diga seu nome : ")
+sobrenome = input("diga seu sobrenome : ")
+idade = input("me diga sua idade : ")
+print(f"Seu nome é {nome} {sobrenome} e voce tem {idade} anos")
+
+num1 = int(input("diga o primeiro numero : "))
+num2 = int(input("diga o segundo numero : "))
+soma = num1+num2
+print(f"a soma é {soma}")
+
+num1 = "5"
+num2 = "4"
+soma = num1+num2
+print(soma)
+
+
+valor = int(input("me diga o preço do amaciante : "))
+print("parabens pelo desconto top de 15%")
+print(f"o valor final foi de R${0.85*valor}") 
