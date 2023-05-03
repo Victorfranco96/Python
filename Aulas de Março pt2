@@ -1,0 +1,41 @@
+sentenca = "Meu"
+print("Este é o primeiro print da variavel sentenca : ",sentenca)
+sentenca = sentenca + " nome"
+print("Este é o segundo print da variavel sentenca : ",sentenca)
+sentenca = sentenca + " é"
+print("Este é o terceiro print da variavel sentenca : ",sentenca)
+sentenca = sentenca + " Danilo"
+print("Este é o quarto print da variavel sentenca : ",sentenca)
+
+#use essa estrutura para escrever "olá, sou tal, tenho tantos anos"
+print("\n\n")
+frase = "olá, "
+print(frase)
+frase = frase + "sou Danilo,"
+print(frase)
+frase = frase + " tenho 26 anos"
+print(frase)
+
+nome = input("Me diga seu nome : ")
+idade = input("Me diga sua idade : ")
+print(f"seu nome é {nome} e você tem {idade} anos")
+
+#tipo de variavel : string
+#nome = "Danilo"
+#print(type(nome))
+
+#num1 = float(input("diga um numero : "))
+#num2 = float(input("diga o segundo numero : "))
+#print(type(num1),type(num2))
+#soma = num1 + num2
+#print(soma)
+num1 = "17"
+num2 = "19"
+print(f"o tipo de num1 é {type(num1)}, o tipo de num2 é {type(num2)}")
+soma = num1 + num2
+print(f"Essa é a soma de strings {soma}")
+num1 = int(num1)
+num2 = int(num2)
+soma = num1 + num2
+print(f"o tipo de num1 é {type(num1)}, o tipo de num2 é {type(num2)}")
+print(f"Essa é a soma de ints {soma}")
