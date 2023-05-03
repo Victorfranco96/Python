@@ -1,0 +1,54 @@
+
+a = 1
+b = "oi"
+c = False
+d = None
+e = 2.0
+#print(type(a))
+#print(type(b))
+#print(type(c))
+#print(type(d))
+#print(type(e))
+#comparações entre inteiros : >, <, ==
+a = 1
+b = 2
+print(a>b)
+print(a<b)
+print(a==b)
+#operadores logicos and : são retorna True quando ambas as sentenças logicas forem verdadeiras 
+c = 3
+d = 4
+print(c>d)
+print(c<d)
+print(c==d)
+print("\n")
+#print("Print das comparações", c<d and a<b)
+
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+
+#operador lógico or : quando pelo menos uma das sentenças logicas (comparaÃ§Ã£o, etc) for verdadeira, retorna True
+a=1
+b=2
+c=3
+d=4
+print(a>b or c>d)
+print(a>b or c<d)
+print(a<b or c>d)
+print(a<b or c<d)
+
+idade1 = input("me diga sua idade : ")
+idade2 = input("me diga a outra idade : ")
+print(f"comparando {idade1} > {idade2} : {idade1>idade2}")
+print(f"comparando {idade1} < {idade2} : {idade1<idade2}")
+
+#receba do usuario o valor de dois produtos e os compare
+
+cerveja = int(input("me diga o preço da cerveja : "))
+guaranazinho_po = int(input("me diga o preço do guaranazinho : "))
+print(f"o guaranazinho é mais caro que a cerveja ? {guaranazinho_po>cerveja}")
+
+primeira_variavel
+primeiraVariavel
